@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF7358FD4585188E814CCE4 /* Pods_OCR_Playground_OCR_PlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2C46F63FD1E7571653093F /* Pods_OCR_Playground_OCR_PlaygroundTests.framework */; };
+		C72561A42E9D604300791B16 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = C72561A32E9D604300791B16 /* tessdata */; };
+		C7A9860C2E97D4EE00A0A6D8 /* Pods_OCR_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4EB115729674FD44F75EAB /* Pods_OCR_Playground.framework */; };
+		DB829904961BC0BC9AE721DB /* Pods_OCR_Playground_OCR_PlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B0227887D27027B069992E /* Pods_OCR_Playground_OCR_PlaygroundUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E135242E93B061001B55F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E1350C2E93B060001B55F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E135132E93B060001B55F2;
+			remoteInfo = "OCR Playground";
+		};
+		C7E1352E2E93B061001B55F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E1350C2E93B060001B55F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E135132E93B060001B55F2;
+			remoteInfo = "OCR Playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B2169F6153681AB14FF652 /* Pods-OCR PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR PlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-OCR PlaygroundTests/Pods-OCR PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B2C46F63FD1E7571653093F /* Pods_OCR_Playground_OCR_PlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_Playground_OCR_PlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D35B85E050A776EE2A29FF /* Pods-OCR Playground-OCR PlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground-OCR PlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7641C9D982B99B4868593F /* Pods-OCR Playground-OCR PlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground-OCR PlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B81A030DC5FD50F4694FFBB0 /* Pods-OCR Playground-OCR PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground-OCR PlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB899D1A0A9595F56886DC33 /* Pods-OCR Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground.release.xcconfig"; path = "Target Support Files/Pods-OCR Playground/Pods-OCR Playground.release.xcconfig"; sourceTree = "<group>"; };
+		C72561A32E9D604300791B16 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = "OCR Playground/tessdata"; sourceTree = "<group>"; };
+		C7E135142E93B060001B55F2 /* OCR Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E135232E93B061001B55F2 /* OCR PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E1352D2E93B061001B55F2 /* OCR PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBC36CD0D4A0BD3E985E37 /* Pods-OCR PlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR PlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-OCR PlaygroundTests/Pods-OCR PlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2032F4F4C5287AF9D60254 /* Pods-OCR Playground-OCR PlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground-OCR PlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DABBE3A47A949076A0543B4B /* Pods-OCR Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR Playground.debug.xcconfig"; path = "Target Support Files/Pods-OCR Playground/Pods-OCR Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B0227887D27027B069992E /* Pods_OCR_Playground_OCR_PlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_Playground_OCR_PlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4EB115729674FD44F75EAB /* Pods_OCR_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C72561A52E9D604B00791B16 /* Exceptions for "OCR Playground" folder in "OCR Playground" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				tessdata/bel.traineddata,
+				tessdata/eng.traineddata,
+				tessdata/kat.traineddata,
+				tessdata/pol.traineddata,
+			);
+			target = C7E135132E93B060001B55F2 /* OCR Playground */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7E135162E93B060001B55F2 /* OCR Playground */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C72561A52E9D604B00791B16 /* Exceptions for "OCR Playground" folder in "OCR Playground" target */,
+			);
+			path = "OCR Playground";
+			sourceTree = "<group>";
+		};
+		C7E135262E93B061001B55F2 /* OCR PlaygroundTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OCR PlaygroundTests";
+			sourceTree = "<group>";
+		};
+		C7E135302E93B061001B55F2 /* OCR PlaygroundUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OCR PlaygroundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E135112E93B060001B55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9860C2E97D4EE00A0A6D8 /* Pods_OCR_Playground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E135202E93B061001B55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF7358FD4585188E814CCE4 /* Pods_OCR_Playground_OCR_PlaygroundTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1352A2E93B061001B55F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB829904961BC0BC9AE721DB /* Pods_OCR_Playground_OCR_PlaygroundUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC1DD2F27098B90F639FA38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DABBE3A47A949076A0543B4B /* Pods-OCR Playground.debug.xcconfig */,
+				BB899D1A0A9595F56886DC33 /* Pods-OCR Playground.release.xcconfig */,
+				AA7641C9D982B99B4868593F /* Pods-OCR Playground-OCR PlaygroundUITests.debug.xcconfig */,
+				14D35B85E050A776EE2A29FF /* Pods-OCR Playground-OCR PlaygroundUITests.release.xcconfig */,
+				D6FBC36CD0D4A0BD3E985E37 /* Pods-OCR PlaygroundTests.debug.xcconfig */,
+				05B2169F6153681AB14FF652 /* Pods-OCR PlaygroundTests.release.xcconfig */,
+				DA2032F4F4C5287AF9D60254 /* Pods-OCR Playground-OCR PlaygroundTests.debug.xcconfig */,
+				B81A030DC5FD50F4694FFBB0 /* Pods-OCR Playground-OCR PlaygroundTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		741B51890C4319D54EC421B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4EB115729674FD44F75EAB /* Pods_OCR_Playground.framework */,
+				E0B0227887D27027B069992E /* Pods_OCR_Playground_OCR_PlaygroundUITests.framework */,
+				0B2C46F63FD1E7571653093F /* Pods_OCR_Playground_OCR_PlaygroundTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7E1350B2E93B060001B55F2 = {
+			isa = PBXGroup;
+			children = (
+				C72561A32E9D604300791B16 /* tessdata */,
+				C7E135162E93B060001B55F2 /* OCR Playground */,
+				C7E135262E93B061001B55F2 /* OCR PlaygroundTests */,
+				C7E135302E93B061001B55F2 /* OCR PlaygroundUITests */,
+				C7E135152E93B060001B55F2 /* Products */,
+				0CC1DD2F27098B90F639FA38 /* Pods */,
+				741B51890C4319D54EC421B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E135152E93B060001B55F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E135142E93B060001B55F2 /* OCR Playground.app */,
+				C7E135232E93B061001B55F2 /* OCR PlaygroundTests.xctest */,
+				C7E1352D2E93B061001B55F2 /* OCR PlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E135132E93B060001B55F2 /* OCR Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E135372E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR Playground" */;
+			buildPhases = (
+				872BED8FFEC54FB39738420F /* [CP] Check Pods Manifest.lock */,
+				C7E135102E93B060001B55F2 /* Sources */,
+				C7E135112E93B060001B55F2 /* Frameworks */,
+				C7E135122E93B060001B55F2 /* Resources */,
+				E527B890DBC478DCC4C54379 /* [CP] Embed Pods Frameworks */,
+				4ADFC974C94FE9F288DEC5C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7E135162E93B060001B55F2 /* OCR Playground */,
+			);
+			name = "OCR Playground";
+			productName = "OCR Playground";
+			productReference = C7E135142E93B060001B55F2 /* OCR Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E135222E93B061001B55F2 /* OCR PlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E1353A2E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR PlaygroundTests" */;
+			buildPhases = (
+				AAE25C9D2E9BA8CED54DCBD4 /* [CP] Check Pods Manifest.lock */,
+				C7E1351F2E93B061001B55F2 /* Sources */,
+				C7E135202E93B061001B55F2 /* Frameworks */,
+				C7E135212E93B061001B55F2 /* Resources */,
+				999D3FB83179876A9ADA8FE5 /* [CP] Embed Pods Frameworks */,
+				673913C163156D5A0C5805F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E135252E93B061001B55F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7E135262E93B061001B55F2 /* OCR PlaygroundTests */,
+			);
+			name = "OCR PlaygroundTests";
+			productName = "OCR PlaygroundTests";
+			productReference = C7E135232E93B061001B55F2 /* OCR PlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E1352C2E93B061001B55F2 /* OCR PlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E1353D2E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR PlaygroundUITests" */;
+			buildPhases = (
+				0300F6F8243DAEB1DC84C944 /* [CP] Check Pods Manifest.lock */,
+				C7E135292E93B061001B55F2 /* Sources */,
+				C7E1352A2E93B061001B55F2 /* Frameworks */,
+				C7E1352B2E93B061001B55F2 /* Resources */,
+				838ABD1B2901D9F1F6563F07 /* [CP] Embed Pods Frameworks */,
+				7B0B9C92D26338DD9D8DD67A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E1352F2E93B061001B55F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7E135302E93B061001B55F2 /* OCR PlaygroundUITests */,
+			);
+			name = "OCR PlaygroundUITests";
+			productName = "OCR PlaygroundUITests";
+			productReference = C7E1352D2E93B061001B55F2 /* OCR PlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E1350C2E93B060001B55F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					C7E135132E93B060001B55F2 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					C7E135222E93B061001B55F2 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = C7E135132E93B060001B55F2;
+					};
+					C7E1352C2E93B061001B55F2 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = C7E135132E93B060001B55F2;
+					};
+				};
+			};
+			buildConfigurationList = C7E1350F2E93B060001B55F2 /* Build configuration list for PBXProject "OCR Playground" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E1350B2E93B060001B55F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7E135152E93B060001B55F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E135132E93B060001B55F2 /* OCR Playground */,
+				C7E135222E93B061001B55F2 /* OCR PlaygroundTests */,
+				C7E1352C2E93B061001B55F2 /* OCR PlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E135122E93B060001B55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72561A42E9D604300791B16 /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E135212E93B061001B55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1352B2E93B061001B55F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0300F6F8243DAEB1DC84C944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR Playground-OCR PlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADFC974C94FE9F288DEC5C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		673913C163156D5A0C5805F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0B9C92D26338DD9D8DD67A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838ABD1B2901D9F1F6563F07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundUITests/Pods-OCR Playground-OCR PlaygroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872BED8FFEC54FB39738420F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		999D3FB83179876A9ADA8FE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground-OCR PlaygroundTests/Pods-OCR Playground-OCR PlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE25C9D2E9BA8CED54DCBD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR Playground-OCR PlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E527B890DBC478DCC4C54379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCR Playground/Pods-OCR Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E135102E93B060001B55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1351F2E93B061001B55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E135292E93B061001B55F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E135252E93B061001B55F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E135132E93B060001B55F2 /* OCR Playground */;
+			targetProxy = C7E135242E93B061001B55F2 /* PBXContainerItemProxy */;
+		};
+		C7E1352F2E93B061001B55F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E135132E93B060001B55F2 /* OCR Playground */;
+			targetProxy = C7E1352E2E93B061001B55F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7E135352E93B061001B55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E135362E93B061001B55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E135382E93B061001B55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABBE3A47A949076A0543B4B /* Pods-OCR Playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OCR Playground";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to scan text from documents and images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.ocrplayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E135392E93B061001B55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB899D1A0A9595F56886DC33 /* Pods-OCR Playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OCR Playground";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to scan text from documents and images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amaxsoftware.ocrplayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E1353B2E93B061001B55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2032F4F4C5287AF9D60254 /* Pods-OCR Playground-OCR PlaygroundTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.ocrplayground.OCR-PlaygroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR Playground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OCR Playground";
+			};
+			name = Debug;
+		};
+		C7E1353C2E93B061001B55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81A030DC5FD50F4694FFBB0 /* Pods-OCR Playground-OCR PlaygroundTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.ocrplayground.OCR-PlaygroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR Playground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OCR Playground";
+			};
+			name = Release;
+		};
+		C7E1353E2E93B061001B55F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7641C9D982B99B4868593F /* Pods-OCR Playground-OCR PlaygroundUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.ocrplayground.OCR-PlaygroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR Playground";
+			};
+			name = Debug;
+		};
+		C7E1353F2E93B061001B55F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D35B85E050A776EE2A29FF /* Pods-OCR Playground-OCR PlaygroundUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN4BAJAME9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amaxsoftware.ocrplayground.OCR-PlaygroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR Playground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E1350F2E93B060001B55F2 /* Build configuration list for PBXProject "OCR Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E135352E93B061001B55F2 /* Debug */,
+				C7E135362E93B061001B55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E135372E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E135382E93B061001B55F2 /* Debug */,
+				C7E135392E93B061001B55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E1353A2E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR PlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E1353B2E93B061001B55F2 /* Debug */,
+				C7E1353C2E93B061001B55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E1353D2E93B061001B55F2 /* Build configuration list for PBXNativeTarget "OCR PlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E1353E2E93B061001B55F2 /* Debug */,
+				C7E1353F2E93B061001B55F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E1350C2E93B060001B55F2 /* Project object */;
+}
